@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本站 - 按文件类型分类</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .file-type {
+            margin-bottom: 20px;
+        }
+        .file-type h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            margin-bottom: 5px;
+        }
+        .file-list a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .file-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>文本站 - 按文件类型分类</h1>
+    <div class="container">
+        <div class="file-type">
+            <h2>PDF 文件</h2>
+            <ul class="file-list">
+                <li><a href="documents/sample1.pdf" download>sample1.pdf</a></li>
+                <li><a href="documents/sample2.pdf" download>sample2.pdf</a></li>
+                <li><a href="documents/sample3.pdf" download>sample3.pdf</a></li>
+            </ul>
+        </div>
+        <div class="file-type">
+            <h2>DOCX 文件</h2>
+            <ul class="file-list">
+                <li><a href="documents/sample1.docx" download>sample1.docx</a></li>
+                <li><a href="documents/sample2.docx" download>sample2.docx</a></li>
+                <li><a href="documents/sample3.docx" download>sample3.docx</a></li>
+            </ul>
+        </div>
+        <div class="file-type">
+            <h2>TXT 文件</h2>
+            <ul class="file-list">
+                <li><a href="documents/sample1.txt" download>sample1.txt</a></li>
+                <li><a href="documents/sample2.txt" download>sample2.txt</a></li>
+                <li><a href="documents/sample3.txt" download>sample3.txt</a></li>
+            </ul>
+        </div>
+        <div class="file-type">
+            <h2>ZIP 文件</h2>
+            <ul class="file-list">
+                <li><a href="documents/sample1.zip" download>sample1.zip</a></li>
+                <li><a href="documents/sample2.zip" download>sample2.zip</a></li>
+                <li><a href="documents/sample3.zip" download>sample3.zip</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
